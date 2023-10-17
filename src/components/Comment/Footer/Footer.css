@@ -55,3 +55,29 @@
     gap: 4px;
     font-size: 14px;
 }
+
+
+@media(max-width:603px){
+    .company , .about, .job, .partners{
+        width: 250px;
+    }   
+    .footer_cont{
+        text-align: left;
+        justify-content: flex-start;
+        gap: 4px;
+        padding: 1rem 20px;
+    }
+}
+
+@media(max-width:543px){
+    .footer h1{
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    .footer p{
+        font-size: 0.8rem;
+    }
+    .company , .about, .job, .partners{
+        border-bottom: 1px solid #fff;
+    }   
+}

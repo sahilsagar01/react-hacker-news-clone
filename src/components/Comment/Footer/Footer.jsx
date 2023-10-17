@@ -9,31 +9,31 @@ function Footer() {
         <div className='footer_cont'>
             <div className='company'>
                 <h1>Company</h1>
-                <p>Lorem</p>
-                <p>ipsom</p>
-                <p>rpso</p>
-                <p>psrol</p>
+                <p>Lorem in vens</p>
+                <p>ipsom lorem it</p>
+                <p>rpso is the</p>
+                <p>psrol lorem</p>
             </div>
             <div className='about'>
                 <h1>About</h1>
-                <p>Lorem</p>
-                <p>ipsom</p>
-                <p>rpso</p>
-                <p>psrol</p>
+                <p>Lorem in vens</p>
+                <p>ipsom lorem it</p>
+                <p>rpso is the</p>
+                <p>psrol lorem</p>
             </div>
             <div className='job'>
                 <h1>Job</h1>
-                <p>Lorem</p>
-                <p>ipsom</p>
-                <p>rpso</p>
-                <p>psrol</p>
+                <p>Lorem in vens</p>
+                <p>ipsom lorem it</p>
+                <p>rpso is the</p>
+                <p>psrol lorem</p>
             </div>
             <div className='partners'>
                 <h1>partners</h1>
-                <p>Lorem</p>
-                <p>ipsom</p>
-                <p>rpso</p>
-                <p>psrol</p>
+                <p>Lorem in vens</p>
+                <p>ipsom lorem it</p>
+                <p>rpso is the</p>
+                <p>psrol lorem</p>
             </div>
         </div>
         <div className='copyright'>
