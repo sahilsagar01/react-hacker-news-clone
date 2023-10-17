@@ -1,0 +1,98 @@
+.comment{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto;
+    padding: 10px 10px 0 0;
+    width: 100%;
+}
+.comment_profile{
+    display: flex;
+}
+.comment_profile h1{
+    font-size: 2rem;
+    width: 40px;
+    background-color: #4a4a4a;
+    color: #ff6600;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+@media(max-width: 500px){
+    .comment_profile h1{
+        font-size: 1.5rem;
+        width: 30px;
+        height: 30px;
+    }
+}
+.comment_pofile_comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 90%;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.comment_pofile_comment .top{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+.comment_pofile_comment .top h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.comment_pofile_comment .top span{
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #a6a6a6;
+    margin: 0 0 4px 4px
+}
+.comment_pofile_comment .middel{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+}
+.comment_pofile_comment .middel p{
+    max-width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 25px;
+    word-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #3d3429;
+}
+.comment_pofile_comment .bottom .bottom_text_field{
+    width: 100%;
+}
+.comment_pofile_comment .bottom button{
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    color: #a6a6a6;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+.comment_pofile_comment .bottom button:hover{
+    color: rgb(6, 136, 183);
+    text-decoration: underline;
+}
+.bottom_text_field{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff6600;
+    margin-top: 5px;
+    border-radius: 8px 8px 0 0;
+}

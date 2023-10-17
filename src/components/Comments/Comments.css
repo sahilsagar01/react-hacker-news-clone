@@ -1,0 +1,86 @@
+
+.comments{
+    max-width: 800px;
+    margin: 1rem auto 0rem;
+    border-radius: 15px;
+}
+.comments_container{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+
+}
+
+.comments_container_button{
+    padding: 10px 30px;
+    outline: none;
+    border: 2px solid #fe6600;
+    color: #fe6600;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 3rem auto;
+}
+.comments_container_button:hover{
+    background: #fe6600;
+    color: #fff;    
+
+}
+.comments_box{
+    width: 100%;
+}
+.comments_Profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.5rem 2rem 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #a4a4a5;
+}
+.comments_Profile a{
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #212529;
+}
+.comments_Profile a:hover{
+    color: #fe6600;
+}
+.comments_Profile span{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.comments_Profile .date_time{
+    font-size: 10px;
+}
+
+.comments_box h1{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 500px){
+    
+    .comments_Profile a{
+        font-size: larger;
+    }
+    .comments_Profile span{
+        font-size: 12px;
+    }
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Abril Fatface', serif;
+font-family: 'Cedarville Cursive', cursive; */
+/* font-family: 'Handlee', cursive; */
+/* font-family: 'Merriweather Sans', sans-serif; */
+/* font-family: 'Patrick Hand SC', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Spectral', serif; */
+/* font-family: 'Ubuntu', sans-serif; */

@@ -1,0 +1,91 @@
+.newscard{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    border-radius: 10px 10px 0 0;
+    background: #f2f2f2;
+}
+.newscard_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid #a3a2a2;
+    transition: all ease 200ms;
+}
+.newscard_cont:hover{
+    border-bottom: 2px solid #fe5500;
+}
+.newscard_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+.newscard_news h1 a{
+    text-decoration: none;
+    color: #212529;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    transition: all ease 100ms;
+}
+.newscard_news h1 a:hover{
+    color: #fe6600;
+    filter: drop-shadow(1px 1px 8px #888787);
+}
+.newscard_header span{
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    padding: 6px;
+}
+.newscard_header span svg{
+    color: #fe6600;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all ease 100ms;
+}
+.newscard_header span svg:hover{
+    scale: 1.1;
+    color: #fe5500;
+    filter: drop-shadow(1px 1px 8px #fab898);
+}
+.newscard_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.newscard_footer button{
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    color: #fe5500;
+    border-radius: 20px;
+    border: 2px solid #fe5500;
+}
+.newscard_footer button:hover{
+    background-color: #fe5500;
+    color: #fff;
+}
+.newscard_footer p{
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #636466;
+    display: flex;
+    flex-direction: column;
+}
+.newscard_footer p span{
+    font-size: 9px;
+}
+
+@media(max-width: 500px){
+    .newscard_news h1 a{
+        font-size: 1.2rem;
+    }
+}

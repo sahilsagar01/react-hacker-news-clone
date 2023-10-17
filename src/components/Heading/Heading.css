@@ -1,0 +1,38 @@
+.heading{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.heading .heading_text h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+    color: #2d2c2c;
+    text-shadow: 1px 1px 10px rgb(150, 148, 148);
+
+}
+.heading .heading_text span{
+    color: #ff6600;
+}
+.heading_logo{
+    height: 14px;
+    width: 14px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    bottom: 26px;
+    left: 10px;
+}
+.heading_logo p{
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    margin: 1px 0 0;
+}

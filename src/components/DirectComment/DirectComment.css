@@ -1,0 +1,42 @@
+
+.directcomment_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 600px;
+    width: 600px;
+}
+.directcomment{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+}
+.directcomment span{
+    font-family: 'Ubuntu', sans-serif;
+    color: #636466;
+    font-size: 14px;
+}
+.directcomment_text{
+    margin-left: 1.5rem;
+}
+@media(max-width: 600px){
+    .directcomment_header{
+        max-width: none;
+    }
+}
+.text-area{
+    width: 100%;
+}
+.bottom_text_field{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff6600;
+    margin-top: 5px;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}

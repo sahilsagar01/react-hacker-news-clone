@@ -1,0 +1,75 @@
+.navbar{
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    box-shadow: 0 1px 10px rgb(143, 143, 143);
+    background: #f2f2f2;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav_brand{
+    margin-left: 2rem;
+    scale: 1.5;
+    color: rgb(42, 42, 42);
+}
+.nav_brand_canva{
+    margin-left: 1rem;
+    scale: 1.2;
+}
+.office_canva_logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.office_canva_logo span{
+    color: #ff6600;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navigaction_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+    color: rgb(65, 63, 63);
+    transition: all ease 200ms;
+}
+
+.navigaction_items:hover{
+    border-bottom: 2px solid #ff6600;
+    transform: translateY(-3px);
+}
+.navigaction_icon{
+    color: rgb(65, 63, 63);
+}
+
+.navigaction_text{
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding: 0;
+}
+@media(max-width:991px){
+    .navigaction_items{
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 3rem;
+        transition: all ease 100ms;
+        margin: 0;
+        padding: 0;
+    }
+    .navigaction_items:hover{
+        /* background-color: #f6f6f6; */
+        padding: 10px 10px 0;
+        transform: translateY(10px);
+        transform: translateX(-20px);
+    }
+   
+    .navigaction_text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
